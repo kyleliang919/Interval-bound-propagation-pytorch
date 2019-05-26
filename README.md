@@ -7,7 +7,7 @@ This is not an official implementation. The difference in the numbers might be d
 ## Environments:  
 Python 3.5  
 Pytorch  
-GTX 1080 Ti  ( The results shown on the paper was ran on 32 TPU with way larger batch size. So drop in performance should be expected.)
+GTX 1080 Ti  ( The results shown on the paper was run on 32 TPU with way larger batch size. So drop in performance should be expected.)
 
 ## MNIST Results(eps = 0.1)  
 | Model | Robust Acc | Nominal Acc |  
