@@ -36,3 +36,5 @@ Attempting to achieve similar performance with, I speculate that we might need a
 On the side, I also tried a "tighter" version of IBP by constraining the weights of some layers to be non-negative and ues convex polygon in the last layer.  
   
 Also sometimes Spectral Normalization seems to be able to stablize the robust training by regulating the lipschitz constant.
+
+![New Objective](new_objective.png)
