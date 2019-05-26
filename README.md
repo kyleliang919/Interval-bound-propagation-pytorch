@@ -9,14 +9,17 @@ Python 3.5
 Pytorch  
 GTX 1080 Ti  ( The results shown on the paper was run on 32 TPU with way larger batch size. So drop in performance should be expected.)
 
-## MNIST Results(eps = 0.1)  
+## Results
+The results are not measured with MIP, to get "exact" bound, more work needs to be done.
+
+### MNIST Results(eps = 0.1)  
 | Model | Robust Acc | Nominal Acc |  
 | --- | --- | --- |  
 | Small | 0.96 | 0.9823 |  
 | Medium | 0.9418 |0.977 |  
 | Large | 0.9458 |0.9754 |  
 
-## CIFAR Results(eps = 2/255)  
+### CIFAR Results(eps = 2/255)  
 | Model | Robust Acc | Nominal Acc |  
 | --- | --- | --- |  
 | Small | 0.3481 | 0.5535 |  
