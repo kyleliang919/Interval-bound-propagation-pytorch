@@ -28,7 +28,7 @@ GTX 1080 Ti  ( The results shown on the paper was ran on 32 TPU with way larger 
 ![Normal Training](tsne_normal.png)
 
 ## Derivative works
-Attempting to achieve similar performance with, I speculate that we might need a "tighter" objective than the one proposed.
+Attempting to achieve similar performance with, I speculate that we might need a "tighter" objective than the one proposed.  
 On the side, I also tried a "tighter" version of IBP by constraining the weights of some layers to be non-negative and ues convex polygon in the last layer.  
   
 Also sometimes Spectral Normalization seems to be able to stablize the robust training by regulating the lipschitz constant.
