@@ -24,8 +24,12 @@ GTX 1080 Ti  ( The results shown on the paper was run on 32 TPU with way larger 
 | Large | 0.3426 | 0.5223 |  
 
 ## T-SNE Visualization
+### Robust Training
 ![Robust Training](tsne.png)
+### Normal Training
 ![Normal Training](tsne_normal.png)
+### Observations
+It's clear that the objective proposed is harder and it's not separable after transformations by convolutional layers.
 
 ## Derivative works
 Attempting to achieve similar performance with, I speculate that we might need a "tighter" objective than the one proposed.  
