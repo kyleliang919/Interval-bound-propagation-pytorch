@@ -35,7 +35,7 @@ The results are not measured with MIP, to get "exact" bound, more work needs to 
 It's clear that the objective proposed is harder and it's not separable after transformations by convolutional layers.
 
 ## Derivative works
-Attempting to achieve similar performance with, I speculate that we might need a "tighter" objective than the one proposed.  
+Attempting to achieve similar performance with limited resource, I speculate that we might need a "tighter" objective than the one proposed.  
 On the side, I also tried a "tighter" version of IBP by constraining the weights of some layers to be non-negative and ues convex polygon in the last layer.  
   
 Also sometimes Spectral Normalization seems to be able to stablize the robust training by regulating the lipschitz constant.
