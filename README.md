@@ -32,7 +32,7 @@ The results are not measured with MIP, to get "exact" bound, more work needs to 
 ### Normal Training
 ![Normal Training](tsne_normal.png)
 ### Observations
-It's clear that the objective proposed is harder and it's not separable after transformations by convolutional layers.
+It's clear that the robust objective proposed is way harder than the nominal one and it's not separable after transformations by convolutional layers. It's very likely that the bound propagation introduces overlapping in data manifolds with different labels, such that obtaining zero training loss is impossible.
 
 ## Derivative works
 Attempting to achieve similar performance with limited resource, I speculate that we might need a "tighter" objective than the one proposed.  
